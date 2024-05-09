@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EU Kitabevi</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">E & U Kitabevi</a>
+
+      <nav class="navbar">
+        <a href="#anasayfa">Anasayfa</a>
+        <a href="#kategoriler">Tüm Kategoriler</a>
+        <a href="#urunler">Ürünler</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+      </div>
+
+      <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="Ara" />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="img/resim 1.jpg" alt="" />
+          <div class="content">
+            <h3>İncelikler Tarihi</h3>
+            <span class="fiyat">200 TL/-</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="img/resim 2.jpg" alt="" />
+          <div class="content">
+            <h3>Bahçelerinde Yaz</h3>
+            <span class="fiyat">300 TL/-</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="img/resim 3.jpg" alt="" />
+          <div class="content">
+            <h3>Bilinç Nehri</h3>
+            <span class="fiyat">400 TL/-</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+
+        <div class="total">toplam: 600 TL/-</div>
+        <a href="#" class="btn">Ödeme</a>
+      </div>
+
+      <form action="" class="login-form">
+        <h3>Oturum Aç</h3>
+        <input type="email" placeholder="Email" class="box" />
+        <input type="password" placeholder="Şifre" class="box" />
+        <p><a href="#">Şifremi unuttum</a></p>
+        <p><a href="#">Hesap Oluştur</a></p>
+        <input type="submit" placeholder="Giriş yap" class="btn" />
+      </form>
+    </header>
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Kitapkurtlarının Buluşma Mekanı</h3>
+        <p>
+          Kitap indirim fırsatı, hızlı kargo ve ödeme seçenekleriyle E & U'da!
+        </p>
+        <a href="#" class="btn">Şimdi Al</a>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <h1 class="heading">Neden <span>E & U</span> Kitabevi</h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="img/resim 8.jpg" alt="" />
+          <h3>Güncel Kitaplar</h3>
+          <p>Güncel yayınlar E&U'da!</p>
+          <a href="#" class="btn">İncele</a>
+        </div>
+
+        <div class="box">
+          <img src="img/odeme.png" alt="" />
+          <h3>Kolay ve Güvenli Ödeme</h3>
+          <p>Hızlı ve güvenli ödemek imkanı.</p>
+          <a href="#" class="btn">İncele</a>
+        </div>
+
+        <div class="box">
+          <img src="img/ptt.png" alt="" />
+          <h3>İndirimli Kargo</h3>
+          <p>500TL ve üzeri siparişlerde PTT Kargo Bedava!</p>
+          <a href="#" class="btn">İncele</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="urunler" id="urunler">
+      <h1 class="heading"><span>Satıştaki Kitaplar</span></h1>
+      <div class="urun-slider">
+        <div class="wrapper">
+          <div class="box">
+            <img src="img/resim 1.jpg" alt="" />
+            <h3>İncelikler Tarihi</h3>
+            <div class="fiyat">200 TL</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+
+          <div class="box">
+            <img src="img/resim 2.jpg" alt="" />
+            <h3>Bahçelerinde Yaz</h3>
+            <div class="fiyat">300 TL</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+
+          <div class="box">
+            <img src="img/resim 3.jpg" alt="" />
+            <h3>Bilinç Nehri</h3>
+            <div class="fiyat">100 TL</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+
+          <div class="box">
+            <img src="img/resim 4.jpg" alt="" />
+            <h3>Metnin Sesi</h3>
+            <div class="fiyat">550 TL</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+
+          <div class="box">
+            <img src="img/resim 5.jpg" alt="" />
+            <h3>Yazılar, Yanıtlar</h3>
+            <div class="fiyat">325 TL</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+
+          <div class="box">
+            <img src="img/resim 6.jpg" alt="" />
+            <h3>Çukurova</h3>
+            <div class="fiyat">425 TL</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+
+          <div class="box">
+            <img src="img/resim 7.jpg" alt="" />
+            <h3>Bir Şiirden</h3>
+            <div class="fiyat">125 TL</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+
+          <div class="box">
+            <img src="img/resim 8.jpg" alt="" />
+            <h3>Ötekilere Yazmak</h3>
+            <div class="fiyat">465 TL</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+
+          <div class="box">
+            <img src="img/resim 9.jpg" alt="" />
+            <h3>Yabancı Bir Odada</h3>
+            <div class="fiyat">425 TL</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+
+          <div class="box">
+            <img src="img/resim 10.jpg" alt="" />
+            <h3>Nefaset Lokantası</h3>
+            <div class="fiyat">225 TL</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="kategoriler" id="kategoriler">
+      <h1 class="heading"><span>Tüm Kategoriler</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="img/akademik.png" alt="" />
+          <h3>Akademik</h3>
+          <p>%30 İndirimli</p>
+          <a href="#" class="btn">Şimdi Al</a>
+        </div>
+
+        <div class="box">
+          <img src="img/edebiyat.jpg" alt="" />
+          <h3>Edebiyat</h3>
+          <p>%30 İndirimli</p>
+          <a href="#" class="btn">Şimdi Al</a>
+        </div>
+
+        <div class="box">
+          <img src="img/cocuk.png" alt="" />
+          <h3>Çocuk</h3>
+          <p>%20 İndirimli</p>
+          <a href="#" class="btn">Şimdi Al</a>
+        </div>
+
+        <div class="box">
+          <img src="img/tarih.jpeg" alt="" />
+          <h3>Tarih</h3>
+          <p>%50 İndirimli</p>
+          <a href="#" class="btn">Şimdi Al</a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Şirket</h4>
+            <ul>
+              <li><a href="#">Hakkımızda</a></li>
+              <li><a href="#">Servisler</a></li>
+              <li><a href="#">Gizlilik Politikası</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Yardım</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Müşteri Hizmetleri</a></li>
+              <li><a href="#">Sipariş</a></li>
+              <li><a href="#">Ödeme Yöntemleri</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Takip Edin</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
